@@ -7,8 +7,8 @@ from agent import Agent
 # Load environment variables
 load_dotenv()
 
-LLM_URL = os.getenv("LLM_URL")  # e.g. http://127.0.0.1:11434/api/generate
-LLM_MODEL = os.getenv("LLM_MODEL")  # e.g. gemma3:4b
+LLM_URL = os.getenv("LLM_URL")  
+LLM_MODEL = os.getenv("LLM_MODEL") 
 
 # -----------------------------
 # Instructions
