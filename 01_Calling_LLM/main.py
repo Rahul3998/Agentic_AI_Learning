@@ -1,10 +1,10 @@
 import requests
 import os
 
-LLM_URL = os.getenv("LLM_URL")
+LLM_URL = "http://127.0.0.1:11434/api/generate"
 
 payload = {
-    "model": os.getenv("LLM_MODEL"),
+    "model": "gemma3:4b",
     "prompt": "Explain large language models in simple terms.",
     "stream": False,
     "options": {
@@ -15,7 +15,8 @@ payload = {
         "num_predict": 200
     }
 }
-
+# print(LLM_URL)
+# print(os.getenv("LLM_MODEL"))
 response = requests.post(LLM_URL, json=payload)
 
 print(response.json()["response"])
