@@ -18,7 +18,7 @@ tweet_bot_agent = Agent(name="Tweet Bot", instructions=instruction, model=os.get
 
 # print(tweet_bot_agent.name)
 
-topic = "Heartbroken boy living in his old memories with girlfriend"
+topic = "The future of renewable energy"
 
 print("Generating tweet....")
 
