@@ -150,6 +150,8 @@ Provides:
 ## ⚡ Future Improvements
 
 * 🔗 Integrate with Ollama / local LLM
+
+
 * 🧠 Better NLP parsing (no strict format needed)
 * 🌐 FastAPI / Web UI
 * 📊 Pretty output (tables / dashboards)

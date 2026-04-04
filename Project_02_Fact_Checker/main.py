@@ -40,7 +40,7 @@ print(f"✅ Agent '{fact_checker_agent.name}' created successfully!")
 # -----------------------------
 # Run Example
 # -----------------------------
-statement = "The Great Wall of China is visible from space with the naked eye."
+statement = "The tallest mountain in the world is Mount Everest."
 
 print(f"\n🔍 Checking statement:\n{statement}\n")
 
