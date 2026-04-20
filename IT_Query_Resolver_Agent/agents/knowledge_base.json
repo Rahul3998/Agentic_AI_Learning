@@ -1,0 +1,201 @@
+[
+  {
+    "id": "NET_001",
+    "issue_type": "network",
+    "title": "VPN not connecting",
+    "keywords": ["vpn", "not connecting", "unable to connect vpn"],
+    "severity": "medium",
+    "resolvable": true,
+    "steps": [
+      "Check your internet connection",
+      "Restart the VPN client",
+      "Logout and login again",
+      "Reinstall VPN client if issue persists"
+    ]
+  },
+  {
+    "id": "NET_002",
+    "issue_type": "network",
+    "title": "Internet not working",
+    "keywords": ["internet not working", "wifi not working", "no internet"],
+    "severity": "medium",
+    "resolvable": true,
+    "steps": [
+      "Check WiFi or LAN connection",
+      "Restart router or hotspot",
+      "Reconnect to network",
+      "Try accessing another website"
+    ]
+  },
+  {
+    "id": "NET_003",
+    "issue_type": "network",
+    "title": "Network outage",
+    "keywords": ["network down", "office network down", "all systems not working"],
+    "severity": "critical",
+    "resolvable": false,
+    "steps": [
+      "This appears to be a system-wide issue",
+      "Please report to IT support immediately"
+    ]
+  },
+  {
+    "id": "ACC_001",
+    "issue_type": "account",
+    "title": "Forgot password",
+    "keywords": ["forgot password", "reset password"],
+    "severity": "low",
+    "resolvable": true,
+    "steps": [
+      "Go to password reset page",
+      "Enter registered email",
+      "Verify OTP",
+      "Set new password"
+    ]
+  },
+  {
+    "id": "ACC_002",
+    "issue_type": "account",
+    "title": "Account locked",
+    "keywords": ["account locked", "account disabled"],
+    "severity": "medium",
+    "resolvable": true,
+    "steps": [
+      "Wait for 10-15 minutes",
+      "Try logging in again",
+      "Use password reset option if needed"
+    ]
+  },
+  {
+    "id": "ACC_003",
+    "issue_type": "account",
+    "title": "Unable to login",
+    "keywords": ["unable to login", "login failed", "cannot login"],
+    "severity": "medium",
+    "resolvable": true,
+    "steps": [
+      "Check username and password",
+      "Ensure CAPS LOCK is off",
+      "Reset password",
+      "Try again after some time"
+    ]
+  },
+  {
+    "id": "SW_001",
+    "issue_type": "software",
+    "title": "Outlook not syncing",
+    "keywords": [
+      "outlook not syncing",
+      "emails not syncing",
+      "outlook issue",
+      "mail not updating"
+    ],
+    "severity": "medium",
+    "resolvable": true,
+    "steps": {
+      "basic": [
+        "Check internet connection",
+        "Restart Outlook"
+      ],
+      "advanced": [
+        "Remove and re-add email account",
+        "Clear Outlook cache"
+      ]
+    },
+    "escalation": {
+      "team": "IT Support",
+      "condition": "If issue persists after all steps"
+    }
+  },
+  {
+    "id": "SW_002",
+    "issue_type": "software",
+    "title": "Application not opening",
+    "keywords": ["app not opening", "software not opening", "application crash"],
+    "severity": "medium",
+    "resolvable": true,
+    "steps": [
+      "Restart the application",
+      "Restart your system",
+      "Reinstall the application",
+      "Check for updates"
+    ]
+  },
+  {
+    "id": "SW_003",
+    "issue_type": "software",
+    "title": "Software installation issue",
+    "keywords": ["unable to install", "installation failed"],
+    "severity": "medium",
+    "resolvable": true,
+    "steps": [
+      "Check system compatibility",
+      "Run installer as administrator",
+      "Disable antivirus temporarily",
+      "Retry installation"
+    ]
+  },
+  {
+    "id": "HW_001",
+    "issue_type": "hardware",
+    "title": "Laptop not turning on",
+    "keywords": ["laptop not turning on", "system not starting"],
+    "severity": "high",
+    "resolvable": false,
+    "steps": [
+      "Check power connection",
+      "Try different charger",
+      "Contact IT support for hardware inspection"
+    ]
+  },
+  {
+    "id": "HW_002",
+    "issue_type": "hardware",
+    "title": "Keyboard not working",
+    "keywords": ["keyboard not working", "keys not working"],
+    "severity": "medium",
+    "resolvable": true,
+    "steps": [
+      "Reconnect keyboard",
+      "Restart system",
+      "Try another keyboard",
+      "Update drivers"
+    ]
+  },
+  {
+    "id": "ACC_004",
+    "issue_type": "access",
+    "title": "Admin rights required",
+    "keywords": ["admin access", "admin rights", "need permissions"],
+    "severity": "medium",
+    "resolvable": false,
+    "steps": [
+      "This action requires admin approval",
+      "Please raise a request with IT support"
+    ]
+  },
+  {
+    "id": "ACC_005",
+    "issue_type": "access",
+    "title": "Access denied error",
+    "keywords": ["access denied", "permission denied"],
+    "severity": "medium",
+    "resolvable": false,
+    "steps": [
+      "Ensure you have required permissions",
+      "Contact admin to grant access"
+    ]
+  },
+  {
+    "id": "ACC_006",
+    "issue_type": "access",
+    "title": "Port enable request",
+    "keywords": ["enable port", "open port", "port access"],
+    "severity": "medium",
+    "resolvable": false,
+    "steps": [
+      "Port access requires admin approval",
+      "Raise request with network team"
+    ]
+  }
+]
